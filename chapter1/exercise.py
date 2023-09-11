@@ -2,6 +2,9 @@ class Character:
     weapon_behaviour = None
     def fight(self):
         self.weapon_behaviour.use_weapon()
+    
+    def set_weapon(self, weapon_behaviour):
+        self.weapon_behaviour = weapon_behaviour
 
 class WeaponBehaviour:
     def use_weapon(self): ...
@@ -38,7 +41,11 @@ class Knight(Character):
 class Queen(Character):
     weapon_behaviour = KnifeBehaviour()
 
-King().fight()
-Troll().fight()
-Knight().fight()
-Queen().fight()
+k, t, n, q = King(), Troll(), Knight(), Queen()
+k.fight()
+t.fight()
+n.fight()
+q.fight()
+
+q.set_weapon(SwordBehaviour())
+q.fight()
