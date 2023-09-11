@@ -3,7 +3,10 @@
 In this repo I'll be going through Head First Design Principles and programming examples in python.
 
 ## Chapters
-1. Intro to design patterns
+1. **Strategy Pattern** [Simuduck]
+> Strategy pattern lets the algorithm vary independently from the clients that use it.
+
+2. 
 
 ## Design Principles:
 1. **Page 9**: Identify aspects of your application that vary and separate them from what stays the same.
