@@ -9,6 +9,10 @@ In this repo I'll be going through Head First Design Principles and programming 
 2. **Observer Pattern** [WeatherData]
 > Defines a one-to-many dependency between objects so that when on object changes state, all of its dependenents are notified and updated.
 
+3. **Decorator Pattern** [Starbuzz]
+> Attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+
+
 ## Design Principles:
 1. **Page 9**: Identify aspects of your application that vary and separate them from what stays the same
 
@@ -25,3 +29,6 @@ In this repo I'll be going through Head First Design Principles and programming 
 4. **Page 54**: Strive for loosely couples designs between objects that interact
 
    > Flexible designs allow us to build flexible systems that can handle changed, because they minimize interdependency between objects.
+
+5. **Page 86**: Classes should be open for extension, but closed for modification.
+   > Also called the Open/Closed principle.
