@@ -12,6 +12,7 @@ In this repo I'll be going through Head First Design Principles and programming 
 3. **Decorator Pattern** [Starbuzz]
 > Attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
 
+4. **Factory Pattern** 
 
 ## Design Principles:
 1. **Page 9**: Identify aspects of your application that vary and separate them from what stays the same
@@ -32,3 +33,6 @@ In this repo I'll be going through Head First Design Principles and programming 
 
 5. **Page 86**: Classes should be open for extension, but closed for modification.
    > Also called the Open/Closed principle.
+
+6. **Page 110**: When you see new, think concrete (ie: instantiate objects)
+   > New is always an instantiation and not an interface, since it is a concrete object.
